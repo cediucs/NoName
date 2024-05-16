@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+ul li a {
+font-family: sans-serif;
+font-weight: 700;
+font-size: 15px;
+color: #9E9AA8;
+}
+.right-header{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+.btn button {
+background: #2BD0D0;
+border-radius: 28px;
+width: 75px;
+height: 35px;
+/* Sign Up */
+font-family: sans-serif;
+font-weight: 700;
+font-size: 15px;
+color: #FFFFFF;
+}
+
+
+/* first section*/
+
+
+.info-text h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: #34313D;
+    width: 565px;
+}
+
+.info-text h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #9E9AA8;
+    width: 540px;
+    padding-top: 5px;
+    padding-bottom: 38px;
+}
+
+.btn button {
+    background: #2BD0D0;
+    border-radius: 28px;
+    width: 197px;
+    height: 56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 139px;
+    margin-bottom: 155px;
+}
+
+/* second section */
+
+#second{
+    height: 300px;
+    background: #3A3054;
+    position: relative;
+}
+
+
+
+.main-text001{
+font-family: sans-serif;
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+letter-spacing: -1px;
+color: #FFFFFF;
+padding-top: 89px;
+}
+.btn001 button {
+background: #2BD0D0;
+border-radius: 28px;
+width: 197px;
+height: 60px;
+font-family: sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+
+}
+.btn001{
+    padding-left: 621px;
+    padding-top: 20px;
+}
+
+
+/* footer */
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+footer{
+    background: #232127;
+}
+
+.icons-footer{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.right-footer{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+/*absolute*/
+
+.absolute-shape{
+    width: 1110px;
+    margin: 0 auto;
+    height: 168px;  
+    border-radius: 15px;
+    background-color: #4B3F6B;
+
+
+    position: absolute;
+    top: -85px;
+    left: 0;
+    right: 0;
+}
+
+.absolute-form{
+    width: 1000px;
+        
+    display: flex;
+    height: 170px;
+    align-items: center;
+    gap: 25px;  
+  
+}
+.absolute-input input{
+    width: 769px;
+    height: 64px;
+    border-radius: 15px;
+    /* Shorten a link here. */
+font-family: sans-serif;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 0.15px;
+color: #34313D;
+opacity: 0.5;
+padding-left: 25px;
+}
+
+.absolute-input{
+
+    padding-left: 58px;
+}
+
+.absolute-btn button{
+background: #2BD0D0;
+border-radius: 10px;
+width: 188px;
+height: 64px;
+/* Shorten It! */
+font-family: sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+
+
